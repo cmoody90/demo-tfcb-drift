@@ -1,6 +1,6 @@
 terraform {
   cloud {
-    organization = "hashi_strawb_demo"
+    organization = "chris-hashicorp"
 
     workspaces {
       name = "demo-tfcb-drift"
