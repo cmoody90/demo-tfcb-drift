@@ -24,8 +24,10 @@ variable "vcs_repo" {
   default     = "cmoody90/demo-tfcb-drift"
 }
 
+/*
 variable "oauth_token_id" {
   type        = string
   description = "OAuth Token ID to connect to VCS repo"
   default     = "ot-brMPKiENCKAjPMFv"
 }
+*/
