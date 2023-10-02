@@ -7,7 +7,7 @@ variable "workspace_name" {
 variable "organization" {
   type        = string
   description = "Terraform Cloud organization in which to create/manage the workspace"
-  default     = "hashi_strawb_demo"
+  default     = "chris-hashicorp"
 }
 
 variable "workspace_tags" {
@@ -21,11 +21,11 @@ variable "workspace_tags" {
 variable "vcs_repo" {
   type        = string
   description = "VCS repo to link workspace to"
-  default     = "hashi-strawb/demo-tfcb-drift"
+  default     = "cmoody90/demo-tfcb-drift"
 }
 
 variable "oauth_token_id" {
   type        = string
   description = "OAuth Token ID to connect to VCS repo"
-  default     = "ot-hgXVE3ukvEeULkPU"
+  default     = "ot-brMPKiENCKAjPMFv"
 }
